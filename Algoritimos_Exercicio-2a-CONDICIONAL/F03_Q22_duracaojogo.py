@@ -10,9 +10,14 @@ def main():
 
 def horas():
     if h1 < h2:
-        return h2 - h1
+        if m1 > m2:
+            return h2 - h1 - 1
+        else:
+            return h2 - h1
+
     elif h1 > h2:
         return 24 - h1 + h2
+
     else:
         if m1 == m2:
             return 24
@@ -22,7 +27,7 @@ def horas():
 
 def minutos():
     if m1 > m2:
-        return m1 - m2
+        return 60 - m1
     elif m2 > m1:
         return m2 - m1
     else:
