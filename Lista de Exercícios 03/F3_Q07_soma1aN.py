@@ -7,4 +7,4 @@ while x <= n:
     y = soma 
     x += 1
 
-print(f'A soma dos números é de: {soma}')
+print(f'A soma dos números é: {soma}')
