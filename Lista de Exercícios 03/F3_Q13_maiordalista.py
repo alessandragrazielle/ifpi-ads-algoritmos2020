@@ -11,4 +11,4 @@ while x <= n:
     y = num
     x += 1
 
-print(f'O mior valor é: {maior}')
+print(f'O maior valor é: {maior}')
